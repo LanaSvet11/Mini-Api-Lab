@@ -16,7 +16,7 @@ function ProductList() {
       <ul>
         {products.map((product) => (
           <li key={product.id}>
-            <strong>title:</strong> {product.title}, <strong>price:</strong> $
+            <strong>Name:</strong> {product.name}, <strong>Price:</strong> $
             {product.price}
           </li>
         ))}
